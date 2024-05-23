@@ -1,0 +1,123 @@
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+input, .react-datepicker-wrapper, .react-phone-number-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.react-phone-number-input__input {
+  width: calc(100% - 40px);
+  margin-left: 40px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 30px;
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li div {
+  font-size: 1rem;
+  color: #333;
+}
+
+li div strong {
+  color: #000;
+}
+
+li .buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+li .buttons button {
+  padding: 8px 12px;
+  margin: 0;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+li .buttons button:hover {
+  background-color: #c82333;
+}
+
+li .buttons button:first-of-type {
+  background-color: #28a745;
+}
+
+li .buttons button:first-of-type:hover {
+  background-color: #218838;
+}
